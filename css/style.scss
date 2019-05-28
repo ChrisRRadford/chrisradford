@@ -1,0 +1,999 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+
+// Variables
+$hero-container-height:800px;
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+h1{
+  padding:50px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1:before,
+h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  font-family: "Montserrat", sans-serif; 
+}
+
+p, blockquote{
+  font-size:.9em;
+  line-height: 1.6em;
+}
+
+
+// ----------------------Nav Container Styles----------------------//
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-wrapper-100{
+  width: 100%;
+  background:linear-gradient(to right, rgba(118,115,255,0.8), rgba(136,239,254,0.8));
+    
+  // margin-bottom: 50px;
+}
+
+.container{
+
+  width: 80%;
+  margin:0 auto;
+  min-height: 60px;
+}
+
+.logo{
+  display: none;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+nav ul {
+  position:fixed;
+  width: 60%;
+  top: 0;
+  right:0;
+  width:auto;
+  height:auto;
+  display: flex;
+  background: none;
+  padding-top: 10px;
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 1em 2em;
+
+}
+.show-mobile{
+  display: none;
+}
+
+.exit-btn{
+  display: none;
+}
+
+
+// ----------------------Hero Container Styles----------------------//
+/*------------------------- Hero Elements ---------------------*/
+.hero-container-wrapper{
+  background:linear-gradient(to right, rgba(118,115,255,0.8), rgba(136,239,254,0.8));
+  padding: 50px;
+  padding-top: 0;
+  position:relative;
+  
+  }
+
+.hero-container{
+  display: flex;
+  padding:30px;
+
+  background-color: white;
+}
+
+
+.profile-image{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hero-text-wrapper{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.hero-text{
+  margin-left: 150px;
+  align-items: center;
+
+  h6{
+    font-size:20px;
+    margin: 1em;
+    margin-left:0;
+  }
+
+  h3{
+    font-size:5em;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+  
+  p{
+    color: rgb(150,150,150);
+    padding-right: 30px;
+  }
+
+  .basic-info{
+    list-style-type: none;
+    margin-bottom: 40px;
+    
+
+    li{
+      padding-right:20px;
+      color: rgb(150,150,150);
+    }
+    a{
+      text-decoration: none;
+      
+
+    }
+
+    i{
+      color: rgb(118,115,255);
+      font-size: 20px;
+      margin-right: 20px;
+    }
+
+  }
+
+  .personal-social{
+    display: flex;
+    justify-content:  center;
+
+    li{
+      margin:0 20px;
+    }
+
+    i{  
+
+      
+      text-align: center;
+      font-size: 50px;
+      color:black;
+      
+    }
+
+    .sketchfab{
+      width:50px;
+      cursor: pointer;
+    }
+  }
+
+}
+
+// ----------------------About and Experience----------------------//
+.flex-container{
+  min-height: 800px;
+  width:100%;
+  // background-color: rgb(245,245,245); 
+  display: flex; 
+  position:relative;
+}
+
+.about-wrapper{
+  // margin-left: 10%;
+  padding: 2%;
+  padding-left: 5%;
+  position:relative;
+  width: 40%;
+ 
+}
+
+.about{
+  // display: flex;
+  margin-top: 50px;
+  width:100%;
+  height: 100%; 
+  
+}
+.about-interests{
+  display: flex;
+  align-items: center;
+}
+
+
+.about-gallery{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; 
+}
+
+.experience{
+  background-color: white;
+  width:60%;
+  height: 100%; 
+  margin-top: 25px;
+  margin-right:5%;
+}
+
+
+// -- Experience box layout
+.row-wrapper{
+  width:100%;
+  background-color: white;
+  border: 2px solid #e6b24f;
+  // border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.row{
+  background-color: #e6b24f;
+  display: flex;
+  margin-bottom: 20px;
+  // border-radius: 15px;
+  margin: 5px;
+  
+
+.job-title{
+  display: block;
+  margin-top: 17%;
+}
+
+  h4{
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+  }
+}
+
+
+.tile-left{
+  width:33%;
+  position: relative;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.tile-right{
+  width:67%;
+}
+
+.tile-right-content{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+
+
+
+// ----------------------Latest Work Glider Styles----------------------//
+
+
+.latest-work-tile{
+  position: relative;
+  background:linear-gradient(to right, rgba(118,115,255,0.8), rgba(136,239,254,0.8)); 
+  padding:5px;
+}
+
+.inner-wrapper{
+  background-color: white;
+  width:100%;
+  height:100%;
+}
+
+.latest-work-img{
+  padding-top:10px;
+  align-items: center;
+  text-align: center;
+}
+
+.glider-contain{
+  width:94%;
+}
+
+.glider-prev{
+  left:20px;
+  top:55%;
+}
+
+.glider-next{
+  right:20px;
+  top:55%;
+}
+
+blockquote{
+  margin:0;
+  padding-top: 1em;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.latest-work-text{
+  align-items: center;
+  text-align: center;
+}
+.LW-learn-more{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width:25%;
+  text-transform: uppercase;
+  padding: 5px;
+  letter-spacing: 1px;
+  background: transparent;
+  color: #e31b6d;
+  
+  border: 2px solid #e31b6d;
+  outline: none;
+  cursor: pointer;
+  transition:color .3s;
+  transition:background-color .3s;
+
+}
+
+.LW-learn-more:hover{
+  color:white;
+  background-color: #e31b6d;
+}
+
+
+// ----------------------Portfolio Tile Styles----------------------//
+
+.portfolio{
+  width: 100%;
+  background-color: rgb(245,245,245); 
+}
+
+//Styles for the portfolio buttons
+.btn-container{
+  margin-top:50px;
+  background-color: rgb(245,245,245); 
+  text-align: center;
+  
+
+}
+
+//Styles to set all portfolio tiles to be initally hidden;
+  .photogrammetry, .cv, .dev{
+    display: none;
+  }
+  
+
+.filter-btn{
+  padding: 5px 20px;
+  margin:10px 5px;
+  border: 2px solid #e31b6d;
+  color: #e31b6d;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-color: white;
+  text-transform: uppercase;
+  transition:transform .3s;
+  transition: color .3s;
+  transition: background-color .3s;
+}
+
+.filter-btn:hover{
+  color:white;
+  background-color: #e31b6d;
+}
+
+.gallery-wrapper{
+  // position: absolute;
+  width:100%;
+  display: flex;
+  background-color: rgb(245,245,245); 
+}
+
+// Portfolio Gallery Styles
+.gallery{
+  position: relative;
+  width: 100%;
+  padding: 0 7%;
+  overflow: hidden;
+  margin: 0% 5% 2% 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.card{
+  overflow: hidden;  
+  align-items: center;
+  width: auto;
+  height: 250px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-size: cover;
+
+
+
+}
+
+
+.top-text{
+  text-align: center;
+  transform:translateY(-100px);
+  transition:transform .3s;
+}
+
+.card-btn,{
+  width:50%;
+  padding: 5px;
+  text-transform: uppercase;;
+  letter-spacing: 1px;
+  background: transparent;
+  color: #e31b6d;
+  opacity: 1;
+  border: 2px solid #e31b6d;
+  outline: none;
+  cursor: pointer;
+  transform:translateY(100px);
+  transition:transform .3s;
+  transition: color .3s;
+  transition: background-color .3s;
+}
+
+
+
+.card:hover{
+   .card-btn{
+    transform: translateY(0px);
+  }
+
+  .top-text{
+  transform:translateY(0px);
+  }
+}
+
+.card-btn:hover{
+    color:white;
+    background-color: #e31b6d;
+  }
+
+//Tile Backgrounds
+.AutoFP {
+    background: url("../images/portfolioTile/AFP_Tile.png") center no-repeat; 
+    background-size: cover;
+  }
+.fpl-1 {
+    background: url(https://media.defense.gov/2013/Jul/16/2000032379/-1/-1/0/130628-F-DQ639-002.JPG) center no-repeat; 
+    background-size: cover;
+  }
+
+.fpl-2 {
+    background: url("../images/portfolioTile/IS_Tile.jpg") center no-repeat; 
+    background-size: cover;
+
+  }
+
+.fpl-3 {
+  background: url("../images/portfolioTile/Algae_Tile.png") center no-repeat;  
+  background-size: cover;
+}
+.fpl-4 {
+  background: url("../images/portfolioTile/AFP_Tile.jpg") center no-repeat;  
+  background-size: cover;
+
+}
+.fpl-5 {
+  background: url("../images/portfolioTile/UCW_Tile.PNG") center no-repeat;  
+  background-size: cover;
+}
+.fpl-6 {
+
+  background: url("../images/portfolioTile/Portrait_Tile.png") center no-repeat;  
+  background-size: 100%;
+  background-color: white;
+}
+.fpl-7 {
+  background: url("../images/portfolioTile/CamCal_Tile.PNG") center no-repeat;  
+  background-size: contain;
+  background-color: white;
+}
+
+//Faded Tile Background
+.AutoFP:hover{
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/AFP_Tile.png") center no-repeat;
+    background-size: cover;
+}
+.fpl-1:hover {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url(https://media.defense.gov/2013/Jul/16/2000032379/-1/-1/0/130628-F-DQ639-002.JPG) center no-repeat; 
+  background-size: cover;
+}
+
+.fpl-2:hover {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/IS_Tile.jpg") center no-repeat; 
+  background-size: cover;
+}
+
+.fpl-3:hover {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/Algae_Tile.png") center no-repeat;  
+  background-size: cover;
+} 
+.fpl-4:hover {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/AFP_Tile.jpg") center no-repeat;  
+  background-size: cover;
+}
+.fpl-5:hover {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/UCW_Tile.PNG") center no-repeat;  
+  background-size: cover;
+}
+.fpl-6:hover {
+
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/Portrait_Tile.png") center no-repeat;  
+  background-size: 100%;
+  background-color: rgba(255,255,255,0.7);
+}
+.fpl-7:hover {
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/CamCal_Tile.PNG") center no-repeat;  
+  background-size: contain;
+  background-color: rgba(255,255,255,0.7);
+}
+// ----------------------Modal Pop Up Container Styles----------------------//
+// Modal Pop-up cotainer
+.autoFP-bg-modal, .cd-bg-modal, .imgStitch-bg-modal, .AlgDec-bg-modal, .A3DM-bg-modal, .UCW-bg-modal, .resPep-bg-modal, .JA-bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: fixed;
+  top:0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-container{
+  width:1000px;
+  height:800px;
+}
+
+.autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel, .resPep-image-carousel, .JA-image-carousel{
+  position: relative;
+  background-color: red;
+  width: 100%;
+  height: 60%;
+  border-bottom: 2px solid black;
+  align-items: center;
+  
+}
+
+.autoFP-content, .cd-content, .imgStitch-content, .AlgDec-content, .A3DM-content, .UCW-content, .resPep-content, .JA-content{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 32%;
+}
+
+
+.interact-close-container{
+  width:100%;
+  position: relative;
+  height: 8%;
+  display: flex;
+  border-top: 2px solid black;
+  background-color: white;
+  justify-content: space-around;
+
+}
+
+
+.close-only-container{
+  width:100%;
+  position: relative;
+  height: 8%;
+  border-top: 2px solid black;
+  background-color: white;
+  display: flex;
+  
+  .close-btn{
+    position: absolute;
+    right: 7%;
+  }
+
+}
+
+
+.download-btn{
+  padding: 5px 20px;
+  margin:10px 5px;
+  margin-right: 43%; 
+  font-size: 1em;
+  text-transform: uppercase;;
+  letter-spacing: 1px;
+  background: #fff;
+  color: #e31b6d;
+  border: 2px solid #e31b6d;
+  cursor:pointer;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+
+}
+
+.download-btn:hover{
+  color:white;
+  background-color: #e31b6d;
+}
+
+
+.close-btn{
+  font-size: 52px;
+  font-weight: 1000;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+// ----------------------Modal Pop Up Container Image Carousel Styles----------------------//
+
+.mySlides1, .AFP-Tile, .UCW-Tile, .CD-Tile, .IS-Tile, .AD-Tile, .A3DM-Tile, .resPep-Tile{
+  display: none;
+  vertical-align: middle;
+  text-align: center;
+
+  img{
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+
+
+  }
+}
+
+//image carousel buttons
+.next, .prev{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px;
+  border-color: #e31b6d;
+  user-select: none;
+}
+
+
+.next{
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+// --------------------- Contact Styles --------------------- //
+
+.contact-wrapper{
+  width:100%;
+  height:800px;
+  background-color:red;
+}
+
+
+// --------------------- Responsive Elements --------------------- //
+
+@media(max-width:1550px){
+  .hero-text{
+    margin-left: 10%;
+  }
+
+  blockquote{
+    font-size: 1em;
+  }
+}
+
+
+
+@media(max-width: 1350px){
+  
+  .profile-image{
+    padding-top: 5%;
+    img{
+
+      width:125%;
+      vertical-align: middle;
+    }
+
+
+    .hero-text{
+      display: inline;
+
+
+    }
+  }
+  blockquote{
+    font-size: 0.8em;
+  }
+  .tile-left{
+    display:none;
+  }
+
+  .tile-right{
+    width:100%;
+
+}
+
+}
+
+@media(max-width: 1175px){
+  
+  .hero-container-wrapper{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-container{
+    display: block;
+  }
+  .hero-text{
+  margin-left: 10px;
+  h3{
+    font-size:3em;
+  }
+  }
+  .profile-image{
+    width:100%;
+    // position: absolute;
+
+    img{
+      width:90%;
+    }
+  }
+
+
+}
+
+@media(max-width:1050px){
+  .modal-container{
+    width: 800px;
+    height: 640px;
+  }
+
+// About and Experience Styles
+
+  .About-Epxereince{
+    padding:0;
+    margin:0;
+  }
+
+  .flex-container{
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .about-wrapper{
+    width: 95%;
+  }
+
+
+  .experience{
+    width:95%;
+    // margin:20px;
+    margin-top:20px;
+    padding:0;
+    // align-items: center;
+    text-align: center;
+  }
+
+  .tile-right{
+    width: 100%;
+  }
+ 
+  
+
+
+
+
+}
+
+@media only screen and (max-width: 900px){
+  
+  /*------------------------- Nav Elements ---------------------*/
+
+
+
+  .show-mobile{
+    display: block;
+  }
+  
+
+  .hide-mobile{
+    display: none;
+  }
+
+  .exit-btn{
+    display: block;
+  }
+
+  .container{
+    width:80%;
+    text-align: center;
+    
+  }
+  
+  .menu{
+    float: left;
+    width: 35px;
+    padding-top:20px;
+    margin-right: -40px;
+    /*margin-left: 20px;*/
+  }
+
+  .logo{
+    display: block;
+  }
+
+  nav ul{
+    position: fixed;
+    background: rgb(36,41,44);
+    display: block;
+    width:40%;
+    height: 100%;
+    z-index:7;
+    padding-top: 3em;
+    text-align: left;
+  }
+
+  nav ul li a{
+    color: white;
+    display: block;
+    width: 100%;
+    padding:1em 2em;
+    background-color: inherit;
+    background-color: rgb(49,55,59);
+  }
+  nav ul li a:hover{
+    background-color: rgb(65,73,78);
+  }
+
+  .exit-btn{
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+  }
+
+  .exit-btn img{
+    width: 15px;
+    cursor: pointer;
+  }
+
+
+}
+
+
+
+
+// Tablet
+@media(max-width: 825px){
+
+//Image Gallary for Portfolio and latest work
+  .gallery{
+    padding: 0;
+  }
+
+  .modal-container{
+    width:600px;
+    height:540px;
+  }
+
+.autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel{
+    height: 52%;
+  }
+
+
+.latest-work-carousel-container, .latest-work-interact-container, .latest-work-content{
+  width:calc(100% - 76px); 
+  }
+
+//About Section 
+
+
+  .flex-container{
+    align-items: center;
+    flex-direction: column;
+
+    .about{
+      margin: 0;
+
+    }
+    .experience{
+      margin: 0;
+    }
+  }
+  .tile-left{
+    display:none;
+  }
+}
+
+// Mobile
+@media(max-width: 650px){
+  
+  .gallery{
+    padding: 0;
+  }
+  .modal-container{
+    width:450px;
+    height:600px;
+  }
+
+  .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel{
+    height: 35%;
+  }
+
+
+  .latest-work-container{
+    width:100%;
+    height:500px;
+  }
+
+
+.latest-work-carousel-container, .latest-work-interact-container, .latest-work-content{
+  width:calc(100% - 50px); 
+  }
+
+
+
+}
