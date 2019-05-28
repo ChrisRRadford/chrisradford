@@ -379,7 +379,7 @@ blockquote{
 
 }
 
-.LW-learn-more:hover,{
+.LW-learn-more:hover{
   color:white;
   background-color: #e31b6d;
 }
@@ -427,7 +427,6 @@ blockquote{
 }
 
 .gallery-wrapper{
-  // position: absolute;
   width:100%;
   display: flex;
   background-color: rgb(245,245,245); 
