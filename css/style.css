@@ -532,7 +532,7 @@ blockquote {
 .footer-wrapper {
   width: 100%;
   min-height: 200px;
-  background-color: #1b242f; }
+  background-color: black; }
 
 .footer {
   text-align: center;
