@@ -490,7 +490,7 @@ blockquote{
 
 
 
-.card:hover, .card:active{
+.card:hover, .card:active ,.card:focus{
    .card-btn{
     transform: translateY(0px);
   }
@@ -547,39 +547,39 @@ blockquote{
 }
 
 //Faded Tile Background
-.AutoFP:hover, .AutoFP:active{
+.AutoFP:hover, .AutoFP:active ,.AutoFP:focus{
     background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/AFP_Tile.png") center no-repeat;
     background-size: cover;
 }
-.fpl-1:hover, .fpl-1:active {
+.fpl-1:hover, .fpl-1:active ,.fpl-1:focus{
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url(https://media.defense.gov/2013/Jul/16/2000032379/-1/-1/0/130628-F-DQ639-002.JPG) center no-repeat; 
   background-size: cover;
 }
 
-.fpl-2:hover, .fpl-2:active {
+.fpl-2:hover, .fpl-2:active ,.fpl-2:focus{
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/IS_Tile.jpg") center no-repeat; 
   background-size: cover;
 }
 
-.fpl-3:hover, .fpl-3:active {
+.fpl-3:hover, .fpl-3:active ,.fpl-3:focus{
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/Algae_Tile.png") center no-repeat;  
   background-size: cover;
 } 
-.fpl-4:hover, .fpl-4:active {
+.fpl-4:hover, .fpl-4:active ,.fpl-4:focus{
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/A3DM_Tile.jpg") center no-repeat;  
   background-size: cover;
 }
-.fpl-5:hover, .fpl-5:active {
+.fpl-5:hover, .fpl-5:active ,.fpl-5:focus{
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/UCW_Tile.PNG") center no-repeat;  
   background-size: cover;
 }
-.fpl-6:hover, .fpl-6:active {
+.fpl-6:hover, .fpl-6:active ,.fpl-6:focus{
 
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/Portrait_Tile.png") center no-repeat;  
   background-size: 100%;
   background-color: rgba(255,255,255,0.7);
 }
-.fpl-7:hover, .fpl-7:active {
+.fpl-7:hover, .fpl-7:active ,.fpl-7:focus{
   background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),url("../images/portfolioTile/CamCal_Tile.PNG") center no-repeat;  
   background-size: contain;
   background-color: rgba(255,255,255,0.7);
