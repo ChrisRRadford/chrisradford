@@ -347,9 +347,9 @@ blockquote {
   transition: color .3s;
   transition: background-color .3s; }
 
-.card:hover .card-btn {
+.card:hover .card-btn, .card:active .card-btn {
   transform: translateY(0px); }
-.card:hover .top-text {
+.card:hover .top-text, .card:active .top-text {
   transform: translateY(0px); }
 
 .card-btn:hover {
@@ -390,36 +390,36 @@ blockquote {
   background-size: contain;
   background-color: white; }
 
-.AutoFP:hover {
+.AutoFP:hover, .AutoFP:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/AFP_Tile.png") center no-repeat;
   background-size: cover; }
 
-.fpl-1:hover {
+.fpl-1:hover, .fpl-1:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(https://media.defense.gov/2013/Jul/16/2000032379/-1/-1/0/130628-F-DQ639-002.JPG) center no-repeat;
   background-size: cover; }
 
-.fpl-2:hover {
+.fpl-2:hover, .fpl-2:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/IS_Tile.jpg") center no-repeat;
   background-size: cover; }
 
-.fpl-3:hover {
+.fpl-3:hover, .fpl-3:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/Algae_Tile.png") center no-repeat;
   background-size: cover; }
 
-.fpl-4:hover {
+.fpl-4:hover, .fpl-4:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/AFP_Tile.jpg") center no-repeat;
   background-size: cover; }
 
-.fpl-5:hover {
+.fpl-5:hover, .fpl-5:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/UCW_Tile.PNG") center no-repeat;
   background-size: cover; }
 
-.fpl-6:hover {
+.fpl-6:hover, .fpl-6:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/Portrait_Tile.png") center no-repeat;
   background-size: 100%;
   background-color: rgba(255, 255, 255, 0.7); }
 
-.fpl-7:hover {
+.fpl-7:hover, .fpl-7:active {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/CamCal_Tile.PNG") center no-repeat;
   background-size: contain;
   background-color: rgba(255, 255, 255, 0.7); }
