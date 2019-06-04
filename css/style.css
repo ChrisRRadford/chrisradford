@@ -531,7 +531,7 @@ blockquote {
 
 .footer-wrapper {
   width: 100%;
-  min-height: 200px;
+  height: 200px;
   background-color: black; }
 
 .footer {
@@ -671,7 +671,7 @@ blockquote {
     height: 540px; }
 
   .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel {
-    height: 52%; }
+    height: 44%; }
 
   .latest-work-carousel-container, .latest-work-interact-container, .latest-work-content {
     width: calc(100% - 76px); }
@@ -687,12 +687,15 @@ blockquote {
   .tile-left {
     display: none; } }
 @media (max-width: 650px) {
+  p {
+    font-size: 0.7em; }
+
   .gallery {
     padding: 0; }
 
   .modal-container {
-    width: 450px;
-    height: 600px; }
+    width: 475px;
+    min-height: 600px; }
 
   .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel {
     height: 35%; }

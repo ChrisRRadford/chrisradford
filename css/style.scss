@@ -730,7 +730,7 @@ blockquote{
 
 .footer-wrapper{
   width:100%;
-  min-height:200px;
+  height:200px;
   background-color:black;
   // background-color:#1b242f;
 }
@@ -958,7 +958,7 @@ blockquote{
   }
 
 .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel{
-    height: 52%;
+    height: 44%;
   }
 
 
@@ -989,12 +989,16 @@ blockquote{
 // Mobile
 @media(max-width: 650px){
   
+  p{
+    font-size: 0.7em;
+  }
+
   .gallery{
     padding: 0;
   }
   .modal-container{
-    width:450px;
-    height:600px;
+    width:475px;
+    min-height:600px;
   }
 
   .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel{
