@@ -706,7 +706,7 @@ blockquote{
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color:white;
+  color:#e31b6d;
   font-weight: bold;
   font-size: 18px;
   border-radius: 0 3px 3px;
@@ -722,8 +722,8 @@ blockquote{
 
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
+  background-color:#e31b6d;
+  color: white;
 }
 
 // --------------------- Footer Styles --------------------- //
