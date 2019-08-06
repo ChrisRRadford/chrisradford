@@ -46,12 +46,14 @@ header {
 
 .container-wrapper-100 {
   width: 100%;
-  background: linear-gradient(to right, rgba(118, 115, 255, 0.8), rgba(136, 239, 254, 0.8)); }
+  position: relative;
+  background: linear-gradient(to right, rgba(118, 115, 255, 0.8), rgba(136, 239, 254, 0.8));
+  z-index: 1; }
 
 .container {
   width: 80%;
   margin: 0 auto;
-  min-height: 60px; }
+  min-height: 50px; }
 
 .logo {
   display: none; }
@@ -357,7 +359,7 @@ blockquote {
   background-color: #e31b6d; }
 
 .AutoFP {
-  background: url("images/LW_AFP.png") center no-repeat;
+  background: url("../images/portfolioTile/AFP_Tile.png") center no-repeat;
   background-size: cover; }
 
 .fpl-1 {
