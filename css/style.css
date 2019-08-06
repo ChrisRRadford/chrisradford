@@ -387,7 +387,7 @@ blockquote {
 
 .fpl-7 {
   background: url("../images/portfolioTile/CamCal_Tile.PNG") center no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: white; }
 
 .AutoFP:hover, .AutoFP:active, .AutoFP:focus {
