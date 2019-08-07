@@ -58,6 +58,9 @@ header {
 .logo {
   display: none; }
 
+.menu-container {
+  background: linear-gradient(to right, rgba(118, 115, 255, 0.8), rgba(136, 239, 254, 0.8)); }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -448,11 +451,15 @@ blockquote {
   border-bottom: 2px solid black;
   align-items: center; }
 
+.autoFP-content-wrapper, .cd-content-wrapper, .imgStitch-content-wrapper, .AlgDec-content-wrapper, .A3DM-content-wrapper, .UCW-content-wrapper, .resPep-content-wrapper, .JA-content-wrapper {
+  position: relative;
+  background-color: white; }
+
 .autoFP-content, .cd-content, .imgStitch-content, .AlgDec-content, .A3DM-content, .UCW-content, .resPep-content, .JA-content {
   position: relative;
   background-color: white;
-  width: 100%;
-  height: 32%; }
+  min-height: 32%;
+  margin: 0px 20px; }
 
 .interact-close-container {
   width: 100%;
@@ -542,7 +549,23 @@ blockquote {
 
 .links ul li {
   display: inline;
-  align-items: center; }
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 12px; }
+
+.links ul li a img {
+  width: 60px;
+  height: auto; }
+
+.scroll-top {
+  padding: 10px 0px 20px 0px; }
+
+.scroll-top-icon {
+  width: 50px;
+  height: auto; }
+
+.footer-text {
+  margin-top: 5px; }
 
 @media (max-width: 1550px) {
   .hero-text {
