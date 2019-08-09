@@ -362,7 +362,7 @@ blockquote {
   background-color: #e31b6d; }
 
 .AutoFP {
-  background: url("../images/portfolioTile/AFP_Tile.png") center no-repeat;
+  background: url("../images/portfolioTile/AFP_Tile.jpg") center no-repeat;
   background-size: cover; }
 
 .fpl-1 {
@@ -396,7 +396,7 @@ blockquote {
   background-color: white; }
 
 .AutoFP:hover, .AutoFP:active, .AutoFP:focus {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/AFP_Tile.png") center no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../images/portfolioTile/AFP_Tile.jpg") center no-repeat;
   background-size: cover; }
 
 .fpl-1:hover, .fpl-1:active, .fpl-1:focus {
