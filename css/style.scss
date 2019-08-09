@@ -472,7 +472,7 @@ blockquote{
 
 .top-text{
   text-align: center;
-  transform:translateY(-100px);
+  transform:translateY(-250px);
   transition:transform .3s;
 }
 
@@ -496,8 +496,8 @@ blockquote{
 
 
 .card:hover, .card:active ,.card:focus{
-   .card-btn{
-    transform: translateY(0px);
+  .card-btn{
+  transform: translateY(0px);
   }
 
   .top-text{
@@ -512,7 +512,7 @@ blockquote{
 
 //Tile Backgrounds
 .AutoFP {
-    background: url("../images/portfolioTile/AFP_Tile.png") center no-repeat; 
+    background: url("../images/portfolioTile/AFP_Tile.png") center no-repeat;  
     background-size: cover;
   }
 .fpl-1 {
@@ -889,7 +889,9 @@ blockquote{
     width: 100%;
   }
  
-  
+  p{
+    font-size: 0.7em;
+  }
 
 
 
@@ -968,9 +970,6 @@ blockquote{
     cursor: pointer;
   }
 
-p{
-    font-size: 0.7em;
-  }
 
 }
 
