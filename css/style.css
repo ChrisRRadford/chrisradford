@@ -349,12 +349,12 @@ blockquote {
   transition: color .3s;
   transition: background-color .3s; }
 
-.card:hover .card-btn, .card:active .card-btn, .card:focus .card-btn {
+.card:hover .card-btn, .card:focus .card-btn {
   transform: translateY(0px); }
-.card:hover .top-text, .card:active .top-text, .card:focus .top-text {
+.card:hover .top-text, .card:focus .top-text {
   transform: translateY(0px); }
 
-.card-btn:hover {
+.card-btn:hover, .card:focus {
   color: white;
   background-color: #e31b6d; }
 

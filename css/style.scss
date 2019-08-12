@@ -494,7 +494,7 @@ blockquote{
 
 
 
-.card:hover, .card:active ,.card:focus{
+.card:hover ,.card:focus{
   .card-btn{
   transform: translateY(0px);
   }
@@ -504,7 +504,7 @@ blockquote{
   }
 }
 
-.card-btn:hover{
+.card-btn:hover,.card:focus{
     color:white;
     background-color: #e31b6d;
   }
