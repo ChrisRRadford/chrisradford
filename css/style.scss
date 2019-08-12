@@ -985,7 +985,7 @@ blockquote{
 @media(max-width: 825px){
 
 //Image Gallary for Portfolio and latest work
-  .gallery{
+  .gallery, .gallery:focus{
     padding: 0;
   }
 
