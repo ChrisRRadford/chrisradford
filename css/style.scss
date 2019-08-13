@@ -622,6 +622,15 @@ blockquote{
   align-items: center;
   
 }
+.sketchfab-embed-wrapper{
+  position: relative;
+
+  iframe{
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+}
 
 .autoFP-content-wrapper,.cd-content-wrapper, .imgStitch-content-wrapper, .AlgDec-content-wrapper, .A3DM-content-wrapper, .UCW-content-wrapper, .resPep-content-wrapper, .JA-content-wrapper{
   position: relative;
