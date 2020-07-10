@@ -56,19 +56,19 @@ document.getElementById("AlgDec-close").addEventListener('click', function(){
   document.querySelector('.glider-next').style.visibility = 'visible';
 });
 
-// Aerial 3D Model
-document.getElementById("A3DM").addEventListener('click', function(){
-  document.querySelector('.A3DM-bg-modal').style.display = 'flex';
-  document.querySelector('.glider-prev').style.visibility = 'hidden';
-  document.querySelector('.glider-next').style.visibility = 'hidden';
-});
+// // Aerial 3D Model
+// document.getElementById("A3DM").addEventListener('click', function(){
+//   document.querySelector('.A3DM-bg-modal').style.display = 'flex';
+//   document.querySelector('.glider-prev').style.visibility = 'hidden';
+//   document.querySelector('.glider-next').style.visibility = 'hidden';
+// });
 
-// Close
-document.getElementById("A3DM-close").addEventListener('click', function(){
-  document.querySelector('.A3DM-bg-modal').style.display = 'none';
-  document.querySelector('.glider-prev').style.visibility = 'visible';
-  document.querySelector('.glider-next').style.visibility = 'visible';
-});
+// // Close
+// document.getElementById("A3DM-close").addEventListener('click', function(){
+//   document.querySelector('.A3DM-bg-modal').style.display = 'none';
+//   document.querySelector('.glider-prev').style.visibility = 'visible';
+//   document.querySelector('.glider-next').style.visibility = 'visible';
+// });
 
 
 // University Course Website
