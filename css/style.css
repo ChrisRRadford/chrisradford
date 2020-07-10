@@ -449,7 +449,7 @@ blockquote {
 
 .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel, .resPep-image-carousel, .JA-image-carousel {
   position: relative;
-  background-color: red;
+  background-color: white;
   width: 100%;
   max-height: 60%;
   border-bottom: 2px solid black;
@@ -522,7 +522,8 @@ blockquote {
   text-align: center; }
   .mySlides1 img, .AFP-Tile img, .UCW-Tile img, .CD-Tile img, .IS-Tile img, .AD-Tile img, .A3DM-Tile img, .resPep-Tile img, .JA-Tile img {
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     vertical-align: middle;
     text-align: center; }
 
@@ -737,6 +738,27 @@ blockquote {
 
   .modal-container {
     width: 475px;
+    min-height: 600px; }
+
+  .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel {
+    height: 35%; }
+
+  .latest-work-container {
+    width: 100%;
+    height: 500px; }
+
+  .latest-work-carousel-container, .latest-work-interact-container, .latest-work-content {
+    width: calc(100% - 50px); } }
+
+@media (max-width: 450px) {
+  p {
+    font-size: 0.6em; }
+
+  .gallery {
+    padding: 0; }
+
+  .modal-container {
+    max-width: 400px;
     min-height: 600px; }
 
   .autoFP-image-carousel, .cd-image-carousel, .imgStitch-image-carousel, .AlgDec-image-carousel, .A3DM-model-container, .UCW-image-carousel {
